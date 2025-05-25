@@ -1,0 +1,100 @@
+{
+  "common": {
+    "appName": "Pengingat Tanaman",
+    "loading": "Memuat...",
+    "error": "Kesalahan",
+    "success": "Berhasil",
+    "save": "Simpan",
+    "cancel": "Batal",
+    "delete": "Hapus",
+    "edit": "Ubah",
+    "add": "Tambah",
+    "remove": "Hapus",
+    "back": "Kembali",
+    "next": "Lanjut",
+    "finish": "Selesai",
+    "confirm": "Konfirmasi",
+    "language": "Bahasa"
+  },
+  "navigation": {
+    "home": "Beranda",
+    "plants": "Tanaman",
+    "settings": "Pengaturan",
+    "dashboard": "Dasbor"
+  },
+  "welcome": {
+    "title": "Pengingat Tanaman",
+    "subtitle": "Asisten perawatan tanaman berbasis cuaca Anda",
+    "description": "Dapatkan rekomendasi perawatan personal untuk tanaman hias Anda berdasarkan kondisi cuaca. Jangan lupa untuk menyiram, memangkas, atau memupuk lagi!",
+    "getStarted": "Mulai"
+  },
+  "dashboard": {
+    "todaysCare": "Perawatan Tanaman Hari Ini",
+    "weatherTips": "Tips Berdasarkan Cuaca",
+    "noPlants": "Anda belum menambahkan tanaman!",
+    "addPlants": "Tambah Tanaman",
+    "allCaredFor": "Semua tanaman Anda sudah terawat! 🌱",
+    "checkTomorrow": "Periksa kembali besok untuk rekomendasi baru",
+    "managePlants": "Kelola Tanaman"
+  },
+  "weather": {
+    "sunny": "Perawatan Tanaman Saat Cerah",
+    "rainy": "Perawatan Tanaman Saat Hujan",
+    "cloudy": "Perawatan Tanaman Saat Berawan",
+    "windy": "Perawatan Tanaman Saat Berangin",
+    "clear": "Perawatan Tanaman Saat Cuaca Bersih",
+    "sunnyTip": "Pada hari yang cerah, pantau kelembaban tanah lebih sering karena tanaman dapat mengering lebih cepat. Pertimbangkan untuk memindahkan tanaman sensitif dari sinar matahari langsung.",
+    "rainyTip": "Periksa drainase pada tanaman pot selama periode hujan untuk mencegah pembusukan akar. Tahan penyiraman sampai tanah mengering.",
+    "cloudyTip": "Hari berawan sempurna untuk memindahkan atau transplantasi karena tanaman mengalami lebih sedikit stres tanpa sinar matahari langsung.",
+    "windyTip": "Pertimbangkan untuk membawa tanaman pot kecil ke dalam ruangan atau memberikan perlindungan dari angin kencang. Periksa kelembaban tanah karena angin dapat mengeringkan tanaman.",
+    "clearTip": "Hari yang cerah bagus untuk perawatan tanaman. Periksa hama, pangkas sesuai kebutuhan, dan pastikan penyiraman yang cukup."
+  },
+  "plants": {
+    "search": "Cari tanaman...",
+    "selected": "tanaman dipilih",
+    "selectedPlural": "tanaman dipilih",
+    "noResults": "Tidak ada tanaman yang cocok dengan",
+    "addToGarden": "Tambahkan ke Kebun Saya",
+    "removeFromGarden": "Hapus dari Kebun Saya",
+    "about": "Tentang",
+    "careRequirements": "Kebutuhan Perawatan",
+    "careInstructions": "Instruksi Perawatan",
+    "careHistory": "Riwayat Perawatan",
+    "waterNeeds": "Kebutuhan Air",
+    "light": "Cahaya",
+    "temperature": "Suhu",
+    "height": "Tinggi",
+    "fertilizer": "Pupuk"
+  },
+  "settings": {
+    "notifications": {
+      "title": "Pengaturan Notifikasi",
+      "dailyReminders": "Pengingat Harian",
+      "description": "Dapatkan notifikasi perawatan tanaman",
+      "reminderTime": "Waktu Pengingat",
+      "enabled": "Notifikasi diaktifkan!",
+      "testMessage": "Notifikasi perawatan tanaman sekarang aktif!"
+    },
+    "appearance": {
+      "title": "Tampilan",
+      "darkMode": "Mode Gelap",
+      "description": "Aktifkan tampilan mode gelap"
+    },
+    "weather": {
+      "title": "Data Cuaca",
+      "refresh": "Perbarui Data Cuaca",
+      "description": "Perbarui informasi cuaca saat ini"
+    },
+    "data": {
+      "title": "Data Aplikasi",
+      "reset": "Reset Data Aplikasi",
+      "description": "Hapus semua tanaman dan pengaturan",
+      "confirmReset": "Reset Semua Data?",
+      "confirmMessage": "Ini akan menghapus semua tanaman dan pengaturan Anda. Tindakan ini tidak dapat dibatalkan."
+    },
+    "about": {
+      "title": "Tentang",
+      "version": "Versi"
+    }
+  }
+}

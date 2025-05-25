@@ -1,0 +1,100 @@
+{
+  "common": {
+    "appName": "Plant Reminder",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "remove": "Remove",
+    "back": "Back",
+    "next": "Next",
+    "finish": "Finish",
+    "confirm": "Confirm",
+    "language": "Language"
+  },
+  "navigation": {
+    "home": "Home",
+    "plants": "Plants",
+    "settings": "Settings",
+    "dashboard": "Dashboard"
+  },
+  "welcome": {
+    "title": "Plant Reminder",
+    "subtitle": "Your weather-based plant care assistant",
+    "description": "Get personalized care recommendations for your houseplants based on weather conditions. Never forget to water, prune, or fertilize again!",
+    "getStarted": "Get Started"
+  },
+  "dashboard": {
+    "todaysCare": "Today's Plant Care",
+    "weatherTips": "Weather-Based Tips",
+    "noPlants": "You haven't added any plants yet!",
+    "addPlants": "Add Plants",
+    "allCaredFor": "All your plants are taken care of! 🌱",
+    "checkTomorrow": "Check back tomorrow for new recommendations",
+    "managePlants": "Manage Plants"
+  },
+  "weather": {
+    "sunny": "Sunny Day Plant Care",
+    "rainy": "Rainy Day Plant Care",
+    "cloudy": "Cloudy Day Plant Care",
+    "windy": "Windy Day Plant Care",
+    "clear": "Clear Day Plant Care",
+    "sunnyTip": "On sunny days, monitor soil moisture more frequently as plants may dry out faster. Consider moving sensitive plants away from direct sunlight.",
+    "rainyTip": "Check drainage on potted plants during rainy periods to prevent root rot. Hold off on watering until soil dries out.",
+    "cloudyTip": "Cloudy days are perfect for repotting or transplanting as plants experience less stress without direct sunlight.",
+    "windyTip": "Consider bringing smaller potted plants indoors or providing shelter from strong winds. Check soil moisture as wind can dry plants out.",
+    "clearTip": "Clear days are great for plant maintenance. Check for pests, prune as needed, and ensure adequate watering."
+  },
+  "plants": {
+    "search": "Search plants...",
+    "selected": "plant selected",
+    "selectedPlural": "plants selected",
+    "noResults": "No plants found matching",
+    "addToGarden": "Add to My Garden",
+    "removeFromGarden": "Remove from My Garden",
+    "about": "About",
+    "careRequirements": "Care Requirements",
+    "careInstructions": "Care Instructions",
+    "careHistory": "Care History",
+    "waterNeeds": "Water Needs",
+    "light": "Light",
+    "temperature": "Temperature",
+    "height": "Height",
+    "fertilizer": "Fertilizer"
+  },
+  "settings": {
+    "notifications": {
+      "title": "Notification Settings",
+      "dailyReminders": "Daily Reminders",
+      "description": "Get plant care notifications",
+      "reminderTime": "Reminder Time",
+      "enabled": "Notifications enabled!",
+      "testMessage": "Plant care notifications are now active!"
+    },
+    "appearance": {
+      "title": "Appearance",
+      "darkMode": "Dark Mode",
+      "description": "Toggle dark mode appearance"
+    },
+    "weather": {
+      "title": "Weather Data",
+      "refresh": "Refresh Weather Data",
+      "description": "Update current weather information"
+    },
+    "data": {
+      "title": "App Data",
+      "reset": "Reset App Data",
+      "description": "Clear all plants and settings",
+      "confirmReset": "Reset All Data?",
+      "confirmMessage": "This will remove all your plants and settings. This action cannot be undone."
+    },
+    "about": {
+      "title": "About",
+      "version": "Version"
+    }
+  }
+}

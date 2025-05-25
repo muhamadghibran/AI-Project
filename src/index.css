@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', system-ui, sans-serif;
+  }
+  
+  body {
+    @apply min-h-screen;
+  }
+
+  .dark body {
+    @apply bg-gray-900;
+  }
+
+  .light body {
+    @apply bg-blue-50;
+    background-image: url('https://images.pexels.com/photos/1089455/pexels-photo-1089455.jpeg?auto=compress&cs=tinysrgb&w=1600');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white bg-opacity-90 backdrop-blur-sm rounded-xl shadow-md p-6 transition-all duration-300;
+  }
+  
+  .dark .card {
+    @apply bg-gray-800 bg-opacity-90 text-white;
+  }
+  
+  .btn {
+    @apply px-4 py-2 rounded-md font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-opacity-50;
+  }
+  
+  .btn-primary {
+    @apply btn bg-green-600 text-white hover:bg-green-700 focus:ring-green-500;
+  }
+  
+  .dark .btn-primary {
+    @apply bg-green-500 hover:bg-green-600;
+  }
+  
+  .btn-secondary {
+    @apply btn bg-blue-500 text-white hover:bg-blue-600 focus:ring-blue-400;
+  }
+  
+  .dark .btn-secondary {
+    @apply bg-blue-400 hover:bg-blue-500;
+  }
+  
+  .btn-outline {
+    @apply btn border border-gray-300 hover:bg-gray-100 focus:ring-gray-300;
+  }
+  
+  .dark .btn-outline {
+    @apply border-gray-600 text-gray-200 hover:bg-gray-700;
+  }
+  
+  .input {
+    @apply rounded-md border border-gray-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent;
+  }
+  
+  .dark .input {
+    @apply bg-gray-700 border-gray-600 text-white focus:ring-green-400;
+  }
+}
+
+/* Animations */
+.plant-sway {
+  animation: plant-sway 5s ease-in-out infinite alternate;
+}
+
+.flower-bloom {
+  animation: flower-bloom 8s ease-in-out infinite alternate;
+}
+
+@keyframes plant-sway {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(5deg);
+  }
+}
+
+@keyframes flower-bloom {
+  0% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1.05);
+  }
+}
